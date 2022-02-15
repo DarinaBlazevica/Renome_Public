@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <title>Renome</title>
+  </head>
+
+  <body>
+    <div class="top-nav">
+      <div class="top-nav__header-block">
+        <div class="top-nav__header">Renome</div>
+      </div>
+      <div class="top-nav__cart-block">
+        <div class="top-nav__cart-menu" id="cart-menu">
+          <p>$44.50</p>
+          <p>View Cart</p>
+          <p>Checkout</p>
+        </div>
+        <img
+          class="top-nav__shopping-cart"
+          src="./svg_icons/cart-shopping.svg"
+          alt="shopping cart"
+          id="shopping-cart"
+        />
+        <div class="top-nav__cart-count">2</div>
+        <div class="top-nav__divider">|</div>
+        <div class="top-nav__hamburger" id="burger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div class="top-nav__menu" id="menu">
+        <a href="#" class="top-nav__menu-search">
+          <input
+            type="text"
+            id="mySearch"
+            placeholder="Search.."
+            title="Type in a category"
+          />
+          <button>
+            <img
+              class="top-nav__menu-search_icon"
+              src="./svg_icons/magnifying-glass-solid.svg"
+              alt="search"
+            />
+          </button>
+        </a>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#blog">Blog</a>
+        <a class="top-nav__menu--feature" href="#feature">
+          <p>Features</p>
+          <button class="top-nav__menu-feature__btn" id="btn__features">
+            <img src="./svg_icons/angle-right-solid-black.svg" alt="features button"/>
+          </button>
+        </a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a> 
+      </div>
+      <div class="top-nav__sub-navigation" id="sub-nav">
+        <a class="top-nav__sub-navigation--back" href="#">
+          <button class="top-nav__sub-navigation--backbtn" id="btn__back">
+            <img src="./svg_icons/angle-left-solid-black.svg" alt="back button">
+          </button>
+          <p>Back</p> 
+        </a>
+        <a href="#">One Page</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Shortcodes</a>
+      </div>
+    </div>
+    <div class="carousel-container">
+      <div class="carousel-container__carousel">
+        <div class="carousel-container__carousel__slider">
+          <section><img src="./images/carousel_img_1.png" alt="carousel image"/></section>
+          <section><img src="./images/carousel_img_2.png" alt="carousel image"/></section>
+          <section><img src="./images/carousel_img_3.png" alt="carousel image"/></section>
+      </div>
+    </div>
+    </div>
+
+      <h1 class="carousel__heading">made with love</h1>
+      <h2 class="carousel__subheading">for you</h2>
+      <div class="carousel__arrow">
+        <button type="button" class="carousel__arrow--left" id="left-arrow">
+          <img src="./svg_icons/angle-left-solid.svg" alt="left arrow" />
+        </button>
+        <div class="carousel__space"></div>
+        <button type="button" class="carousel__arrow--right" id="right-arrow">
+          <img src="./svg_icons/angle-right-solid.svg" alt="right arrow" />
+        </button>
+      </div>
+    </div>
+
+    <div class="about">
+      <img
+        class="about__image1"
+        src="./images/about_img_2.png"
+        alt="house image 2"
+      />
+      <img
+        class="about__image2"
+        src="./images/about_img_1.png"
+        alt="house image 1"
+      />
+      <h1 class="about__heading">about</h1>
+      <h2 class="about__subheading">we create delicious memories</h2>
+      <p class="about__paragraph">
+        Renome it is renowned restaurant delights the senses with elegant
+        ambiance, gracious service and delectable menus in the heart of
+        Manhattan’s. The distinctive setting boasts contemporary furnishings and
+        finishes atop the restaurant’s grand modern architecture. Renome offers
+        the room for private dining where guests enjoy creative foods and
+        sumptuous late night desserts. Is one of the few Manhattan restaurants
+        to have a coveted 3-star Michelin rating.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <h1 class="gallery__heading">gallery</h1>
+      <h2 class="gallery__subheading">more about us via photos</h2>
+      <div class="gallery__images">
+        <img src="./images/gallery_img_1.png" alt="gallery image 1" />
+        <img src="./images/gallery_img_3.png" alt="gallery image 3" />
+        <img src="./images/gallery_img_2.png" alt="gallery image 2" />
+        <img src="./images/gallery_img_6.png" alt="gallery image 6" />
+        <img src="./images/gallery_img_5.png" alt="gallery image 5" />
+        <img src="./images/gallery_img_4.png" alt="gallery image 4" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <h1 class="contact__heading">follow us:</h1>
+        <div class="contact__socialmedia">
+          <img src="./svg_icons/facebook-square.svg" alt="facebook" />
+          <img src="./svg_icons/twitter-square.svg" alt="twitter" />
+          <img src="./svg_icons/google-plus-square.svg" alt="google plus" />
+        </div>
+        <div class="contact__renome">Renome</div>
+        <div class="contact__copyright">COPYRIGHT 2021 RENOME BY ESTETIQ</div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
